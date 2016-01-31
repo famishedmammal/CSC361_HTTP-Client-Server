@@ -1,10 +1,11 @@
 # HTTP-Server-Client-Architecture
-A simple TCP-based HTTP Server/Client System for learning purposes.
+###Overview : A simple TCP-based HTTP Server/Client System for learning purposes.
 
 TO RUN MAKE FILE
 - type "make all"
 
-CLIENT
+
+###CLIENT
 - The client uses 3 base functions under main()
   * parse_URI
   * open_connection  
@@ -22,7 +23,8 @@ CLIENT
   * It sends an request to the connected server in the form of "GET host/resource HTTP/1.0"
   * If a response is received, it breaks it into header and body by looking for the "/r/n/r/n" string.
 
-SERVER-SIDE
+
+###SERVER-SIDE
 - The server uses a main loop, and a function for handling incoming requests
 1. Main
   * The server first binds a socket with the given port, for listening
