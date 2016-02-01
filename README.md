@@ -1,8 +1,5 @@
 #HTTP Server-Client Architecture 
-**Overview** : A simple TCP-based HTTP Server/Client System for learning purposes.
-
-TO RUN MAKE FILE
-- type "make all"
+A simple TCP-based HTTP Server/Client System for learning purposes. TO RUN MAKE FILE, type "make all". 
 
 ###CLIENT
 - The client uses 3 base functions under main()
