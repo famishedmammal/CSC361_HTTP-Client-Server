@@ -1,6 +1,6 @@
 /*------------------------------
 * SimpClient.c
-* Description: An program that runs as an HTTP/1.0 client.
+* Description: A program that runs as an HTTP/1.0 client.
 *
 * By: Harrison Walters
 -------------------------------*/
